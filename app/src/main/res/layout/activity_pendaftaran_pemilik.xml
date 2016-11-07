@@ -8,4 +8,104 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xiirpl201112131.kos.pendaftaran_pemilik"></RelativeLayout>
+    tools:context="id.sch.smktelkom_mlg.project.xiirpl201112131.kos.pendaftaran_pemilik">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewNamaKos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:text="Nama Kos" />
+
+            <EditText
+                android:id="@+id/editTextNamaKos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:hint="(ex: Kos Pelangi)" />
+
+            <TextView
+                android:id="@+id/textViewAlamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:text="Alamat" />
+
+            <EditText
+                android:id="@+id/editTextAlamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:hint="(ex: Kos Pelangi)" />
+
+            <TextView
+                android:id="@+id/textViewPemilikKos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:text="Pemilik Kos" />
+
+            <EditText
+                android:id="@+id/editTextPemilikKos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:hint="(ex: Kos Pelangi)" />
+
+            <TextView
+                android:id="@+id/textViewNoKontakPemilik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:text="Nomor Kontak Pemilik" />
+
+            <EditText
+                android:id="@+id/editTextNoKontakPemilik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:hint="(ex: Kos Pelangi)" />
+
+            <TextView
+                android:id="@+id/textViewPengelolaKos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/scrollView"
+                android:text="Pengelola Kos" />
+
+            <EditText
+                android:id="@+id/editTextPengelolaKos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"
+                android:hint="(ex: Kos Pelangi)" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
